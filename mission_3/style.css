@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif; /* Police simple */
+    background-color: #f0f0f0; /* Fond gris clair */
+    color: #333; /* Texte noir */
+    margin: 20px; /* Marge autour du corps */
+}
+
+table {
+    width: 100%; /* Table pleine largeur */
+    border-collapse: collapse; /* Évite les espaces entre les bordures */
+    background-color: white; /* Fond de la table blanc */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+h1 {
+    font-size: 24px; /* Taille de police pour le titre */
+    text-align: center; /* Centre le titre */
+    color: #007BFF; /* Couleur bleue */
+}
+
+td {
+    padding: 10px; /* Espace interne des cellules */
+    vertical-align: top; /* Alignement en haut */
+}
+
+label {
+    display: block; /* Affiche chaque label sur une nouvelle ligne */
+    margin: 5px 0; /* Espace au-dessus et en dessous des labels */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+input[type="date"],
+input[type="tel"],
+input[type="url"],
+select {
+    width: 100%; /* Largeur complète des champs */
+    padding: 8px; /* Espace interne des champs */
+    margin-bottom: 10px; /* Espace en bas des champs */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px; /* Espace à droite des cases à cocher et boutons radio */
+}
+
+a {
+    display: inline-block; /* Affiche le lien comme un bloc */
+    margin-top: 20px; /* Espace au-dessus du lien */
+    color: #007BFF; /* Couleur bleue */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
