@@ -17,11 +17,7 @@ body
 
 .blockp2
 {
-    background-color: palevioletred;
-    float: left;
-    height: 400px;
-    width: 400px;
-    margin: 20px;
+    background-color: rgb(236, 88, 179);
     border: 5px solid plum;
     border-radius:8px ;
 
@@ -72,3 +68,16 @@ body
     border-radius:8px ;
     background-color: indianred;
 }
+
+.block2 
+{
+    background-color: palevioletred;
+    float: left;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    border: 5px solid plum;
+    border-radius:8px  
+}
+
+
