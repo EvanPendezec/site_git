@@ -29,7 +29,7 @@ a:hover {
 
 .block1 {
     backdrop-filter: blur(10px);
-    height: 400px;
+    height: 450px;
     width: 200px;
     margin: 20px;
     border: 5px solid rgb(245, 245, 220); 
