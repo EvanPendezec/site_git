@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
 
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     background-color: #f0f0f0; 
     color: rgb(243, 159, 62); 
 
@@ -16,13 +16,15 @@ html, body {
 
 a {
     color: #ffde97; 
-    text-decoration: none; 
+    
+    
 }
 
 a:hover {
     text-decoration: underline; 
     text-transform:uppercase;
     text-decoration-color: rgb(240, 138, 42);
+    
 }
 
 .block1 {
