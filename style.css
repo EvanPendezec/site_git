@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
 
-    font-family: 'Fugaz One', static;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f0f0f0; 
     color: rgb(17, 238, 201); 
 
@@ -16,9 +16,9 @@ html, body {
 
 .main {
     display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: flex-start; /* Aligne à droite */
-    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    align-items: center; 
+    justify-content: flex-start; 
+    height: 100vh; 
 
     
 }
@@ -32,10 +32,10 @@ html, body {
     backdrop-filter: blur(10px);
   
     padding: 20px; 
-    border-radius: 5px; /* Arrondit les coins */
-    border: 2px solid rgb(17, 0, 255); /* Ajoute une bordure */
-  ; /* Couleur de fond */
-    transition: box-shadow 0.3s ease; /* Ajoute une transition pour box-shadow */
+    border-radius: 5px; 
+    border: 2px solid rgb(17, 0, 255); 
+  ; 
+    transition: box-shadow 0.3s ease; 
    
   
 }
@@ -47,12 +47,12 @@ html, body {
 }
 
 .link {
-    color: white; /* Couleur par défaut du texte */
-    text-decoration: none; /* Supprime le soulignement */
-    transition: color 0.3s ease, text-shadow 0.3s ease; /* Ajoute une transition */
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s ease, text-shadow 0.3s ease; 
 }
 
 .link:hover {
-    color: rgb(17, 0, 255); /* Couleur au survol */
-    text-shadow: 0 0 10px rgb(0, 0, 0); /* Ombre au survol */
+    color: rgb(17, 0, 255); 
+    text-shadow: 0 0 10px rgb(0, 0, 0); 
 }
