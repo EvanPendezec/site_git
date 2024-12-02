@@ -16,6 +16,7 @@ html, body {
 
 
 .box {
+    
     position: absolute; /* Permet de positionner la div précisément */
     top: 50%; /* Positionne la div à 50% de la hauteur de la fenêtre */
     left: 50%; /* Positionne la div à 50% de la largeur de la fenêtre */
